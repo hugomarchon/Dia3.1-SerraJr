@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.Cabecalho {
+  background-color: #a50010;
+  font-family: Magra;
+  font-size: 36px;
+  color: white;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 128px;
+}
+.Rodape {
+  background-color: #a50010;
+  font-family: Magra;
+  font-size: 24px;
+  color: white;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 68px;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card {
+  background-color: #a50010;
+  width: 468px;
+  height: 207px;
+  margin-top: 18px;
+  color: white;
+}
+
+p {
+  font-family: Magra;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.Button {
+  background-color: #a50010;
+  width: 468px;
+  height: 86px;
+  font-size: 36px;
+  font-family: Magra;
+  color: white;
+  border: 0;
+
+  margin-top: 16px;
+}
+.Imagem {
+  width: 84px;
+  height: 81px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 30px;
+}
